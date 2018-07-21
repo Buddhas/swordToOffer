@@ -38,4 +38,4 @@ function Fibonacci(n){
     }
      console.log(arr[n])
 }
-Fibonacci(39)
+Fibonacci(1)
