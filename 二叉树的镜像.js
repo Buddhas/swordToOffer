@@ -3,8 +3,9 @@ function TreeNode(x) {
     this.left = null;
     this.right = null;
 } 
-function Mirror(root)
-{
+let head = null
+function swap(root){
+    let head = root
     if(root == null){
         return
     }
@@ -20,4 +21,10 @@ function Mirror(root)
     if(root.right != null){
         Mirror(root.right)
     }
+    return head
+}
+function Mirror(root)
+{
+    head = swap(root)
+    return head
 }
