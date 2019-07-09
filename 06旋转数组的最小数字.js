@@ -23,8 +23,6 @@ function minNumberInRotateArray(rotateArray) {
   }
   return rotateArray[mid];
 }
-console.log(minNumberInRotateArray([1,0,1,1,1] ));
-
 
 // 解法二： 排序之后取第一个
 function minNumberInRotateArray(rotateArray)
